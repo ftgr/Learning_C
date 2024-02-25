@@ -18,8 +18,12 @@ int main()
     {
         printf("Third quadrant\n");
     }
-    else {
+    else if (x > 0 && y < 0)
+    {
         printf("Fourth quadrant\n");
+    }
+    else {
+        printf("Point loated at origin (0,0)\n"); 
     }
     
     
