@@ -12,11 +12,11 @@ int main()
 
     if (power == 0)
     {
-        printf("%f^%d = 1\n", number, power);
+        printf("%.2f^%d = 1\n", number, power);
     }
     else
     {
-    for (i = 1; i <= power; i++)
+        for (i = 1; i <= power; i++)
     {
         result = result * number;
     }
