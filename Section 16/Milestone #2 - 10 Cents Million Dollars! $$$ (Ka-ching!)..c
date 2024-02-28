@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    int cent = 1;
     int total = 1;
     int i;
     for (i = 1; i <=30; i++)
