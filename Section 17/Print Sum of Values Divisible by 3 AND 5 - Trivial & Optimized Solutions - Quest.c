@@ -16,7 +16,8 @@ int main()
         }
         
     }
-    printf("Sum: %d\n", sum);
+    printf("Trivial solution\n");
+    printf("Sum: %d\n\n", sum);
 
        for (i = 15; i <= number; i  = i + 15)
     {
