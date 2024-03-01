@@ -16,6 +16,13 @@ int main()
     int number;
     printf("Enter a 2-digit number: ");
     scanf("%d", &number);
+    if (number >= 0 && number <= 99)
+    {
     printf("The maximum digit in %d is %d\n", number, findMaxDigit(number));
+    }
+    else
+    {
+        printf("Invalid input\n");
+    }
     return 0;
 }
