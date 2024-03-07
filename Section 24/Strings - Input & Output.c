@@ -14,6 +14,8 @@ int main()
 
     printf("Hello, %s!\n", userName2);
 
+    puts(userName2);
+
 
     return 0;
 }
