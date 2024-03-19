@@ -20,5 +20,7 @@ int main(){
     printf("Employee #2 name is %s\n", emp2.name);
     printf("Employee #2 age is %d\n", emp2.age);
     printf("Employee #2 id is %d\n", emp2.id);
+    printf("Address of employee #1 is %p\n", &emp1);
+    printf("Address of employee #2 is %p\n", &emp2);
     return 0; 
 }
